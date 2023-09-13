@@ -1,0 +1,153 @@
+@font-face{
+    font-family: 'Grego';
+    src: url("../Fontes/Nabla/Nabla-Regular-VariableFont_EDPT\,EHLT.ttf");
+}
+@font-face{ 
+    font-family: 'Texto';
+    src: url(../Fontes/norse/Norsebold.otf);
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Grego';
+    color: whitesmoke;
+}
+header{
+    width: 100%;
+    height: 80px;
+    top: 0;
+    position: fixed;
+    background: linear-gradient(rgb(209, 24, 24), rgb(106, 0, 0));
+    display: flex;
+    z-index: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{
+    display: flex;
+    align-items:flex-start;
+    width: 200px;
+    height: 70px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+}
+main{
+    width: 100%;
+   position: absolute;
+   font-family: 'Texto';
+   top: 80px;
+   background-image:url(../Imagens/Papel\ de\ parede.png)
+}
+.container{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:  wrap;
+    flex-direction: column;
+    align-content: center;
+}
+.personagens{
+    display: inline-block;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    margin-right: 115px ;   
+}
+.Texto{
+    font-size:20px;
+    margin: 30px;
+}
+.Titulo{
+    font-family: 'Grego';
+    font-size: 15px;
+    margin: 30px;
+}
+.Perfil{
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-right: 100px;
+    margin-left: 50px;
+    display: inline-block;
+}
+.galeria{
+    border-radius: 50%;
+}
+.imagens{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:  nowrap;
+    align-content: center;
+}
+.imagem{
+    border-radius: 50%;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 50px;
+}
+.Foto{
+    border-radius: 50%;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 20px;
+}
+.desenho{
+    border-radius: 20%;
+    display: inline-block;
+}
+.final{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:  wrap;
+    flex-direction: column;
+    align-content: center;
+
+}
+.final1{
+    display: inline-block;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap:  wrap;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 80px;
+}
+.Nome{
+    margin-left: 95px;
+}
+.historia{
+    display: block;
+    text-align: center;
+}
+.galeria:hover{
+    border-radius: 20%;
+}
+.Foto:hover{
+    border-radius: 20%;
+}
+.imagens img:hover{
+    border-radius:20%;
+    }
+.nada{
+    opacity: 0;
+    border-radius: 50%;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 20px;
+}
+
+  
